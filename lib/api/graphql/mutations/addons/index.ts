@@ -15,6 +15,7 @@ export const CREATE_ADDONS = gql`
     }
   }
 `;
+//dsadsadok osdad
 export const EDIT_ADDON = gql`
   mutation editAddon($addonInput: editAddonInput) {
     editAddon(addonInput: $addonInput) {
